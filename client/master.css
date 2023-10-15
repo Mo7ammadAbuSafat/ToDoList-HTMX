@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 80px auto;
+  background-color: rgb(169, 214, 255);
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  margin: 0 auto 15px auto;
+}
+
+.formContainer {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+}
+
+.formContainer input {
+  margin: 0;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.formContainer button {
+  padding: 10px;
+  width: 24%;
+  background: #1100ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.refreshButton {
+  background: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  height: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#item-list {
+  list-style: none;
+  padding: 0;
+}
+
+#item-list li {
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-bottom: 5px;  
+}
+
+#item-list button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+
+#item-list button:hover {
+  background-color: #cc0000;
+}
+
+#item-list span {
+  margin-right: 10px;
+}
+
